@@ -1,10 +1,12 @@
-mother = 43
+# დაწერეთ პროგრამა სადაც შემოიტანთ თქვენი ოჯახის წევრების ასაკს და გამოიტანეთ ის თუ რამდენი წლის იქნებიან 20 წლის შემდეგ.
 
-father = 46
+mother = int(input("enter mom's age:"))
 
-grandfather = 59
+father = int(input("enter dad's age:"))
 
-grandmother = 60
+grandfather = int(input("enter grandpa's age:"))
+
+grandmother = int(input("enter grandma's age:"))
 
 print(mother+20)
 print(father+20)
