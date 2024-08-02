@@ -1,0 +1,1 @@
+# No classwork for day 1
