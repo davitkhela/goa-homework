@@ -1,1 +1,1 @@
-"# goa-homework" 
+This folder is for GOA (Goal-Oriented Academy)'s homework/classwork.
