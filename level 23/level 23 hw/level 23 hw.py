@@ -10,14 +10,12 @@ print(list[-1])  # Last item
 
 # Add a new fruit "fig" to the list
 list.append("fig")
-print(list)
 
 # Remove "banana" from the list
 list.remove("banana")
-print(list)
 
-# Change the value of the second item to "blueberryt(list[1] = "blueberry"
-print(list)
+# Change the value of the second item to "blueberry"
+list[1] = "blueberry"
 
 # Print the length of the list
 print(len(list))
