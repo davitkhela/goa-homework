@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+        body {
+            background-image: url('pattern-background-desktop.svg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-color: rgb(230, 243, 255);
+            font-family: "Red Hat Display", sans-serif;
+        }
+        .container {
+            width: 400px;
+            height: 600px;
+            background-color: white;
+            border-radius: 5%;
+            margin-left: 725px;
+            margin-top: 150px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+        .child {
+            width: 100%;
+            height: auto;
+            border-radius: 5% 5% 0 0;
+            object-fit: cover;
+        }
+        .text {
+            padding: 20px;
+            text-align: center;
+        }
+        .plan {
+            width: 80%;
+            background-color: aliceblue;
+            margin: 20px auto;
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            position: relative;
+            justify-content: space-between; 
+        }
+        .plan-detail {
+            display: flex;
+            flex-direction: column;
+            margin-left: 50px;
+            flex-grow: 1;
+        }
+        h3 {
+            margin: 0;
+        }
+        .price {
+            margin: 0;
+            color: gray;
+            font-weight: bold;
+        }
+        .music {
+            position: absolute;
+            left: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        u {
+            margin-left: auto;
+            color: blue;
+            flex-shrink: 0;
+            margin-right: 10px;
+        }
+        button{
+            background-color: blue;
+            color: white;
+            border-radius: 10%;
+            width:80%;
+            margin-left: 40px;
+            border-color: blue;
+            height:30px
+        }
+        .no{
+            text-align: center;
+            color:gray
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="illustration-hero.svg" class="child">
+        <div class="text">
+            <h1>Order Summary</h1>
+            <p>You can now listen to millions of songs,<br> audiobooks, and podcasts on any device<br> anywhere you like!</p>
+        </div>
+        <div class="plan">
+            <img src="icon-music.svg" class="music" alt="Music Icon">
+            <div class="plan-detail">
+                <h3>Annual plan</h3>
+                <p class="price">$59.99/year</p>
+            </div>
+            <u>Change</u>
+        </div>
+        <button>Proceed to Payment</button>
+        <p class="no">Cancel order</p>
+    </div>
+</body>
+</html>
