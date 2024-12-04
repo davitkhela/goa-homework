@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+    body{
+        background-color: hsl(217, 54%, 11%);
+        font-family: "Red Hat Display", serif;
+    }
+    .container{
+        width: 320px;
+        height: 575px;
+        background-color: hsl(216, 50%, 16%);
+        align-items: center;
+        margin-left: 40%;
+        margin-top: 8%;
+        border-radius: 20px;
+    }
+    .child{
+        margin: 21px;
+        width: 87%;
+        border-radius: 5%;
+    }
+    .nftname{
+        margin-left: 21px;
+        color: white;
+    }
+    .description{
+        margin-left: 21px;
+        color: hsl(215, 51%, 70%);
+        font-size: 18px;
+    }
+    .price{
+        margin-left: 16px;
+    }
+    .cost{
+        color:hsl(178, 100%, 50%);
+        margin: 2px;
+    }
+    .pricecontain{
+        display: flex;
+    }
+    .time{
+        color: hsl(215, 51%, 70%);
+    }
+    .pricetimecontain{
+        display: flex; 
+        justify-content: space-between; 
+        align-items: center;
+    }
+    .timeleft{
+        margin-right: 20px;
+    }
+    .line{
+        color: hsl(215, 32%, 27%);
+        margin: 20px 21px;
+        border-color: hsl(215, 32%, 27%);
+        border-radius: 5%;
+    }
+    .avatar{
+        width:15%;
+        height: 25%;
+    }
+    .user{
+        display: flex;
+        margin: 21px;
+    }
+    .name{
+        margin: 5px 10px 15px;
+        color: hsl(215, 51%, 70%);
+    }
+</style>
+<body>
+    <Div class="container">
+        <img class="child"src="image-equilibrium.jpg">
+        <h2 class="nftname">Equilibrium #3429</h2>
+        <p class="description">Our Equilibrium collection promotes balance and calm.</p>
+        <div class="pricetimecontain">
+            <div class="pricecontain">
+                <img class="price" src="icon-ethereum.svg">
+                <B class="cost">0.041 ETH</B>
+            </div>
+            <div class="timeleft">
+                <img class="timeicon"src="icon-clock.svg">
+                <b class="time">3 days left</b>
+            </div>
+        </div>
+        <hr class="line">
+        <div class="user">
+            <img class="avatar" src="image-avatar.png">
+            <p class="name">Creation of Jules Wyvern</p>
+        </div>
+    </Div>
+</body>
+</html>
