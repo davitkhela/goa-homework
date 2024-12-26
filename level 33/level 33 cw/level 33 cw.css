@@ -1,0 +1,20 @@
+a:hover{
+    color:red;
+    letter-spacing: 10px;
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border: solid orange;
+    border-radius: 5%;
+    text-align: center;
+}
+
+div:hover{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    border-radius: 50%;
+}

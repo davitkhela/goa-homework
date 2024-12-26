@@ -1,0 +1,26 @@
+body{
+    align-items: center;
+    text-align: center;
+    background-color: blueviolet;
+}
+div{
+    background-color: #6DC799;
+    border-radius: 2px;
+    width: 70%;
+    height: 550px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+}
+table{
+    background-color: #6DC799;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    border-color: aquamarine;
+    color: white;
+}

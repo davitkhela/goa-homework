@@ -1,0 +1,26 @@
+body{
+    background-color: blueviolet;
+    margin: 4px;
+    padding: 0;
+}
+table{
+    border-collapse: collapse;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 200px;
+    width: 70%;
+    height: 500px;
+    border-radius: 3%;
+}
+tr:nth-of-type(odd){
+    background-color: white;
+    margin: 50px;
+}
+tr:nth-of-type(even){
+    background-color: rgb(211, 211, 211);
+    margin: 50px;
+}
+th{
+    background-color: black;
+    color: white;
+}

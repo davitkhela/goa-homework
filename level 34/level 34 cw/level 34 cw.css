@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 4px;
+}
+body {
+    text-transform: capitalize;
+    background-color: blueviolet;
+}
+.container{
+    background-color: rgb(58, 199, 255);
+    width:65%;
+    height: 600px;
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    padding-top: 100px;
+}
+.child{
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+    width: 500px;
+    height: 425px;
+    padding-top: 50px;
+}
+form{
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: inline-block;
+}
+input{
+    width: 305px;
+    height: 75px;
+    padding-left: 10px;
+}
+button {
+    width: 305px;
+    height: 75px;
+}
