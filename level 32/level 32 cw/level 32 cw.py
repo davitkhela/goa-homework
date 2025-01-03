@@ -22,3 +22,4 @@ def fake_bin(x):
         else:
             res += '1'
     return res
+
